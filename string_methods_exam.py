@@ -33,7 +33,8 @@ print(website.find(".com"))
 print(course.isalpha())
 print(course.isdigit())
 
-# 8- "Contents" ifadesini 50 karakter içine yerleştirip sağ ve soluna * ekleyiniz.
+# 8- "Contents" ifadesini 50 karakter içine yerleştirip sağ ve soluna * ekleyiniz. 
+# ljust veya rjust kullanarak da sağına soluna boşluk veya belirtilen karakteri ekleyebiliriz.
 
 print('Content'.center(50,"*"))
 
