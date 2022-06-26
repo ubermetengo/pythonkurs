@@ -49,6 +49,25 @@ print(list1 + ["audi","nissan" ])
 del list1[-1]
 print(list1)
 
-#11 listeyi tersten yadır.
+#11 listeyi tersten yazdır.
  
 print(list1[::-1])
+
+# 12- Aşağıdaki verileri bir liste içerisinde saklayınız.
+# studentA : Yiğit Bilgi 2010, (60, 70, 70)
+# studentB : Sena Turan 1999, (80, 80,70)
+# studentC : Ahmet Turan 1998, (80,70,90)
+
+studentA = ["Yiğit", "Bilgi", 2010, [70,60,70]]
+studentB = ["Sena", "Turan", 1999, [80,80,70]]
+studentC = ["Ahmet", "Turan", "1998", [80,70,90]]
+
+# 13- liste elemanlarını ekrana yazdırınız.
+
+print(studentA[1])
+print(studentB[2])
+print(studentC[3])
+
+#14 - f string kullanarak bilgileri yazdırıp not ortalamasını bulalım.
+#örnek metin: Çağrı Şimşek 30 yaşında ve not ortalaması 82'dir.
+print(f"{studentA[0]} {studentA[1]} {2020 - studentA[2]} yaşında ve not ortalaması {((studentA[3][0] + studentA[3][1] + studentA[3][2] )//3)}'dır. ")
